@@ -1,0 +1,124 @@
+.bmhouse {
+	display: flex;
+	justify-content: center;
+    height: 46px;
+}
+
+#bmhouse-search-block input {
+	border: 2px solid #e0e0e0 !important;
+	transition-property: border-color !important;
+	transition-duration: var(--animate-duration-micro) !important;
+	transition-timing-function: var(--animate-easing-standard) !important;
+	font-size: 100% !important;
+	border-radius: 0 !important;
+}
+
+.fout #bmhouse-search-block input {
+	font-family: 'Museo Sans', sans-serif;
+}
+
+#bmhouse-search-block input:focus {
+	border-color: #d7b740 !important;
+}
+
+#bmhouse-search-block span {
+	top: 14px !important;
+}
+
+#bmhouse-search-result {
+	border: 2px solid #d7b740 !important;
+	border-radius: 0 !important;
+}
+
+#bmhouse-search-result.open {
+	padding-top: 57px !important;
+}
+
+.fout #bmhouse-search-result {
+	font-family: 'Museo Sans', sans-serif;
+	font-size: 100% !important;
+}
+
+#bmhouse-search-result .bmhouse-search-result-empty,
+#bmhouse-search-result .bmhouse-search-result-item-data {
+    color: rgba(0,0,0,.77) !important;
+    color: var(--text-color) !important;
+}
+
+#bmhouse-search-result .bmhouse-search-result-item:hover .bmhouse-search-result-item-name {
+	color: var(--gold) !important;
+}
+
+#bmhouse-search-result .bmhouse-search-result-item-article {
+	margin-top: 5px;
+}
+
+#bmhouse-search-result-more {
+    align-items: center !important;
+    background-color: transparent !important;
+    background-color: #fff !important;
+    background-color: var(--white) !important;
+    border-bottom-color: rgba(0,0,0,.77) !important;
+    border-bottom-color: var(--black) !important;
+    border-bottom-style: none !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+    border-left-color: rgba(0,0,0,.77) !important;
+    border-left-color: var(--black) !important;
+    border-left-style: none !important;
+    border-left-style: solid !important;
+    border-left-width: 2px !important;
+    border-right-color: rgba(0,0,0,.77) !important;
+    border-right-color: var(--black) !important;
+    border-right-style: none !important;
+    border-right-style: solid !important;
+    border-right-width: 2px !important;
+    border-top-color: rgba(0,0,0,.77) !important;
+    border-top-color: var(--black) !important;
+    border-top-style: none !important;
+    border-top-style: solid !important;
+    border-top-width: 2px !important;
+    color: rgba(0,0,0,.77) !important;
+    color: var(--black !important);
+    display: flex !important;
+    height: 2.5rem !important;
+    justify-content: center !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-left: .75rem !important;
+    padding-right: 0 !important;
+    padding-right: .75rem !important;
+    padding-top: 0 !important;
+    white-space: nowrap !important;
+    transition-property: background-color;
+    transition-duration: .1s !important;
+    transition-duration: var(--animate-duration-micro) !important;
+    transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
+    transition-timing-function: var(--animate-easing-standard) !important;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+}
+
+#bmhouse-search-result-more:hover,
+#bmhouse-search-result-more:focus {
+    background-color: rgba(0,0,0,.77) !important;
+    background-color: var(--black) !important;
+    color: #fff !important;
+    color: var(--white) !important;
+    cursor: pointer !important;
+}
+
+#bmhouse-search-result .bmhouse-search-result-item-picture-big {
+	box-shadow: none !important;
+	border: 2px solid #e0e0e0 !important;
+	border-radius: 0 !important;
+}
+#ReaspektPopupContainer{
+	min-width:400px;
+}
+.fancybox-slide .views__image{
+    width: auto;
+}
+.views__item .views__image{
+    display: block!important;
+}

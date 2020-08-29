@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Партнёрам", 
+		"/partner/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Архитекторам/дизайнерам", 
+		"/partner/arkhitektoram-i-dizayneram/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Мебельным салонам", 
+		"/partner/mebelnym-salonam/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Лофт-мастерским", 
+		"/partner/loft-masterskim/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отелям-ресторанам", 
+		"/partner/otelyam-restoranam/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

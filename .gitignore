@@ -1,0 +1,16 @@
+/bitrix/
+/upload/
+**/.DS_Store
+**/*.txt
+**/*.log
+**/*.pdf
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.sql
+/.idea/
+web.config
+.htaccess
+.htaccess.restore
+google*.html
+sitemap*.xml
