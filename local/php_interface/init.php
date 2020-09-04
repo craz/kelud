@@ -80,3 +80,8 @@ function onSetAvailableProp(&$arFields)
         }
     }
 }
+
+require_once($_SERVER["DOCUMENT_ROOT"] . "/local/vendor/autoload.php");
+require_once("classLoader.php"); //Загрузчик классов
+
+

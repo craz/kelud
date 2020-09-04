@@ -1,0 +1,23 @@
+{
+    "name": "kelud.my",
+    "version": "1.0.0",
+    "description": "",
+    "main": "html5shiv.js",
+    "dependencies": {
+        "prettier": "^2.1.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "prettier": {
+        "phpVersion": "7.4",
+        "printWidth": 80,
+        "tabWidth": 4,
+        "useTabs": false,
+        "singleQuote": true,
+        "braceStyle": "psr-2"
+    }
+}

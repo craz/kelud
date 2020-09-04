@@ -1,5 +1,7 @@
 /bitrix/
 /upload/
+/local/vendor/
+/node_modules/
 **/.DS_Store
 **/*.txt
 **/*.log
@@ -14,3 +16,6 @@ web.config
 .htaccess.restore
 google*.html
 sitemap*.xml
+package-lock.json
+local/composer.json
+local/composer.lock
